@@ -19,7 +19,7 @@ class Carrot {
   }
 
   /// Set user property
-  Future<void> setUserProperty(UserProperty property) {
+  static Future<void> setUserProperty(UserProperty property) {
     return CarrotquestSdkPlatform.instance.setUserProperty(property);
   }
 
